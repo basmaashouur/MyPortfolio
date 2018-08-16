@@ -10,22 +10,48 @@
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One%7CRaleway:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Basma Ashour</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <div class="header" id="myHeader">
-        <p>BASMA ASHOUR</p>
+<!--==========================================
+                   Navbar
+===========================================-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">BASMA ASHOUR</a>
     </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li> <a href="#about">About</a></li>
+          <li><a href="#portfolios">Portfolios</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li> <a href="#awards">Awards</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav> 
+ 
 
-    <div class="content">
+<!--==========================================
+                   ABOUT
+===========================================-->
+<div id="about" class="container-fluid section1">
 
-        <div class="head">
-            <p> About.
-                <br>
-            </p>
-        </div>
+        <div class="head"><p> About.<br></p></div>
 
         <img src="img/me.jpg" alt="me" class="me">
 
@@ -39,17 +65,147 @@
             <p>
                 Hello! My name is Basma and I spend my time doing competitive programming or working on coding projects
                 <br> and when I'm not working, I enjoy reading comics books, cycling and discovering new \m/etal bands.
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                 <br>  <br> <br> <br> 
+            </p>
+        </div>
+        
+    </div>
 
+<!--==========================================
+                  PORTFOLIOS
+===========================================-->
+<div id="portfolios" class="container-fluid section1">
+
+<div class="head"><p> Portfolios.<br></p></div>
+<div class="row">
+        
+
+                     <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 text-center">
+                           <img class="project-img" src="img/movie.png" alt="Movie Trailer">
+                           <h3 class="project-name">Movie Trailer</h3>
+                           <p class="project-description">
+                              Develop a wbsite that show trailer of movies.
+                           </p>
+                           <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                              <a href="https://github.com/basmaashouur/full-stack-udacity/tree/master/project1" target="_blank" class="github-link">View on GitHub</a>
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 text-center">
+                           <img class="project-img" src="img/catalog.png" alt="Catalog Application">
+                           <h3 class="project-name">Catalog Application</h3>
+                           <p class="project-description">
+                              Develop a RESTful web application utilizing the Flask framework.
+                           </p>
+                           <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                              <a href="https://github.com/basmaashouur/full-stack-udacity/tree/master/project4" target="_blank" class="github-link">View on GitHub</a>
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 col-md-6 text-center">
+                        <div class="card h-100">
+                           <img class="project-img" src="img/map.png" alt="Illustration project 3">
+                           <h3 class="project-name">Neighborhood Map</h3>
+                           <p class="project-description">
+                              Develop a wesbite featuring a map of my favourtite places in my hometown Aswan.
+                           </p>
+                           <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                              <a href="https://github.com/basmaashouur/full-stack-udacity/tree/master/project5" target="_blank" class="github-link">View on GitHub</a>
+                           </p>
+                        </div>
+                     </div>
+
+               </div>
+           </div>
+
+<!--==========================================
+                   EDUCATION
+===========================================-->
+<div id="education" class="container-fluid section1">
+
+<div class="head"><p> Education.<br></p></div>
+    <div class="clg">
+            <p>
+                <br> El Shorouk Academy, 2019
+                <br> Faculty of Computer & Information Science
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                Hello! My name is Basma and I spend my time doing competitive programming or working on coding projects
+                <br> and when I'm not working, I enjoy reading comics books, cycling and discovering new \m/etal bands.
+                <br>  <br> <br> <br> 
+            </p>
+        </div>
+</div>
+<!--==========================================
+                   SKILLS
+===========================================-->
+<div id="skills" class="container-fluid section1">
+
+<div class="head" ><p> Skills.<br></p></div>
+    <div class="clg">
+            <p>
+                <br> El Shorouk Academy, 2019
+                <br> Faculty of Computer & Information Science
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                Hello! My name is Basma and I spend my time doing competitive programming or working on coding projects
+                <br> and when I'm not working, I enjoy reading comics books, cycling and discovering new \m/etal bands.
+                <br>  <br> <br> <br> 
+            </p>
+        </div>
+</div>
+<!--==========================================
+                   EXPERIENCE
+===========================================-->
+<div id="experience" class="container-fluid section1">
+
+<div class="head"><p> Experience.<br></p></div>
+    <div class="clg">
+            <p>
+                <br> El Shorouk Academy, 2019
+                <br> Faculty of Computer & Information Science
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                Hello! My name is Basma and I spend my time doing competitive programming or working on coding projects
+                <br> and when I'm not working, I enjoy reading comics books, cycling and discovering new \m/etal bands.
+                <br>  <br> <br> <br> 
+            </p>
+        </div>
+</div>
+<!--==========================================
+                  AWARDS
+===========================================-->
+<div id="awards" class="container-fluid section1">
+
+<div class="head" ><p> Awards.<br></p></div>
+    <div class="clg">
+            <p>
+                <br> El Shorouk Academy, 2019
+                <br> Faculty of Computer & Information Science
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                Hello! My name is Basma and I spend my time doing competitive programming or working on coding projects
+                <br> and when I'm not working, I enjoy reading comics books, cycling and discovering new \m/etal bands.
+                <br>  <br> <br> <br> 
             </p>
         </div>
 
-    </div>
-
+</div>
+<!--==========================================
+                  Footer
+===========================================-->
     <footer class="footer">
 
         <a target="_blank" href="mailto:basmaashouur@gmail.com"><img class="contact-icon" src="img/social/mail.svg" title="basmaashouur@gmail.com"></a>
@@ -60,23 +216,6 @@
         <a target="_blank" href="https://www.instagram.com/basmaashouur/"><img class="contact-icon" src="img/social/instagram.svg" title="basmaashouur"></a>
 
     </footer>
-
-    <script>
-        window.onscroll = function() {
-            myFunction()
-        };
-
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-    </script>
 
 </body>
 
