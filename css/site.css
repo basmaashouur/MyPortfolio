@@ -12,7 +12,7 @@
 /* every section class (about, eduaction,..*/
 .section1{
        padding-top:50px;
-       height:700px;
+       height:650px;
 }
 /* Name of section*/
  .head {
@@ -64,7 +64,18 @@
      position: relative;
      top: -5px;
 }
+/* animation delay*/
 .animation-delay-200 {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.4s;
+}
+/*Github link decore*/
+a.github-link {
+  font-weight: 400;
+  color: #5a5c51;
+  text-decoration: none;
+}
+
+a.github-link:hover {
+  background-color: #efebdc;
 }
