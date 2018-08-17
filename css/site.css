@@ -8,47 +8,45 @@
      height: 100%;
      margin: 0px;
 }
-a.github-link {
-  font-weight: 400;
-  color: #5a5c51;
-  text-decoration: none;
-}
 
-a.github-link:hover {
-  background-color: #efebdc;
+/* every section class (about, eduaction,..*/
+.section1{
+       padding-top:50px;
+       height:700px;
 }
-.name {
-       text-align: right;
-     font-size: 50px;
-     margin: 0;
-     color: white;
-  }
+/* Name of section*/
  .head {
-     font-size: 50px;
+     font-size: 3vw;
      color: black;
 
 }
-.section1{
-       padding-top:50px;
-       height:800px;
-
-
+/* my pic class*/
+ .me {
+     border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border:2px solid black;
 }
-
+/* my college info class*/
  .clg{
-     font-size: 20px;
+     font-size: 1.7vw;
      text-align: center;
      vertical-align: middle;
      color: black;
      font-weight: 800;
 }
+/* info about me class*/
  .info{
-     font-size: 20px;
+     font-size: 1.5vw;
      color: black;
      text-align: center;
      vertical-align: middle;
 }
 
+/* footer classes*/
  .footer {
      position: fixed;
      left: 0;
@@ -66,38 +64,7 @@ a.github-link:hover {
      position: relative;
      top: -5px;
 }
- .me {
-     border-radius: 50%;
-     width: 300px;
-     height: 300px;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     border:2px solid black;
+.animation-delay-200 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.4s;
 }
-.projects-title {
-  padding-bottom: 10px;
-}
-
-
-.project-name {
-  font-size: 22px;
-  padding: 10px 0;
-}
-
-.project-img {
-  max-width: 100%;
-  margin: 0;
-  width:200;
-  height:100;
-}
-
-.project-description {
-  font-size: 17px;
-  padding: 0 10px;
-  line-height: 1.4;
-}
-
-.project-link {
-  font-size: 17px;
-  padding: 20px 0;
