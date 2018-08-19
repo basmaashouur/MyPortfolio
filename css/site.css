@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300|Montserrat:800);
  body {
-     background: white;
-     color: black;
+     background-color:#262525;color:#7b7b7b;
      font-family: 'Josefin Sans';
      font-weight: 300;
      width: 100%;
@@ -9,61 +8,14 @@
      margin: 0px;
 }
 
-/* every section class (about, eduaction,..*/
-.section1{
-       padding-top:50px;
-       height:650px;
-}
+
 /* Name of section*/
  .head {
      font-size: 3vw;
-     color: black;
+     text-align:center;
 
 }
-/* my pic class*/
- .me {
-     border-radius: 50%;
-     width: 20%;
-     height: auto;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     border:2px solid black;
-}
-/* my college info class*/
- .clg{
-     font-size: 1.7vw;
-     text-align: center;
-     vertical-align: middle;
-     color: black;
-     font-weight: 800;
-}
-/* info about me class*/
- .info{
-     font-size: 1.5vw;
-     color: black;
-     text-align: center;
-     vertical-align: middle;
-}
 
-/* footer classes*/
- .footer {
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     background-color: white;
-     text-align: center;
-     padding: 10px 40px;
-}
- .footer .contact-icon {
-     height: 3em;
-     width: 3em;
-}
- .footer .contact-icon:hover {
-     position: relative;
-     top: -5px;
-}
 /* animation delay*/
 .animation-delay-200 {
   -webkit-animation-delay: 0.1s;
@@ -79,14 +31,6 @@ a.github-link {
 a.github-link:hover {
   background-color: #efebdc;
 }
-.project-name {
-  font-size: 22px;
-  padding: 10px 0;
-}
 
-.project-img {
-  max-width: 100%;
-  margin: 0;
-  width:200;
-  height:100;
-}
+.top-buffer-in { margin-top:20px; }
+.top-buffer-out { margin-top:400px; }

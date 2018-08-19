@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
 <!--==========================================
                    Scripts
@@ -23,203 +24,64 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- WOW JavaScript -->
     <script src="js/wow.min.js"></script> <script>new WOW().init();</script>
+    <!-- materialize JavaScript -->
+     <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
 
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
 <!--==========================================
                    Navbar
 ===========================================-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">BASMA ASHOUR</a>
-            </div>
-            <div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li> <a href="#about">About</a></li>
-                        <li><a href="#portfolios">Portfolios</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#awards">Awards</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
 
 <!--==========================================
                    ABOUT
 ===========================================-->
-    <section id="about" class="container-fluid section1">
+    <section id="about" class=" row top-buffer-out">
 
-        <div class="head wow animated fadeInDown">About.</div>
- <span class="animated bounce"></span>
-        <img src="img/me.jpg" alt="me" class="me">
+          <div class=" head wow animated fadeInDown"> <h1>About.</h1></div>
 
-        <div class="clg">
-               <br>El Shorouk Academy, 2019
-                <br> Faculty of Computer & Information Science
+
+          
+  <div class="col s12 m7">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="img/me3.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
         </div>
-        <div class="info">
-                Hello! My name is Basma and I spend my time doing competitive programming or working on coding projects
-                <br> and when I'm not working, I enjoy reading comics books, cycling and discovering new \m/etal bands.    
+        <div class="card-action">
+          <a href="#">This is a link</a>
         </div>
+      </div>
+    </div>
+  </div>
+            
+
+
 
    </section>
 
 <!--==========================================
                   PORTFOLIOS
 ===========================================-->
-    <section id="portfolios" class="container-fluid section1">
+    <section id="portfolios" class="row top-buffer-out">
 
        <div class="head wow animated fadeInDown"> Portfolios. </div>
-       <div class ="info">
-       	Here I display only a few recent non-work and non-school related projects, some of <br>
-       	 which I may still be working on. For more, you can check out my  <a target="_blank" class="github-link"
-       	 href="https://github.com/basmaashouur">[GitHub]</a>.
-       	</div>
 
-       	<div class="row">
-
-       		<!-- project1 -->
-       	<!-- Button trigger modal -->
-       	<div class="col-md-4">
- <div class="card h-100 text-center">
-  <img class="project-img" src="img/cgl.jpg" alt="Movie Trailer">
-  <h3 class="project-name">Computational Geometry Library</h3>
-<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
-  Project details 
-
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Computational Geometry Library</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       A A Geometry Toolkit for Competitive Programming & a Library for solving most of the geometry algorithms,
-        made with C++ Object Orinted Structure.
-      </div>
-      <div class="modal-footer">
-      	 <a href="https://github.com/basmaashouur/ComputationalGeometryLibrary" target="_blank" class="github-link">View on GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!-- project2 -->
-     	<!-- Button trigger modal -->
-       	<div class="col-md-4">
- <div class="card h-100 text-center">
-  <img class="project-img" src="img/cgl.jpg" alt="Movie Trailer">
-  <h3 class="project-name">Computational Geometry Library</h3>
-<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
-  Project details 
-
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Computational Geometry Library</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       A A Geometry Toolkit for Competitive Programming & a Library for solving most of the geometry algorithms,
-        made with C++ Object Orinted Structure.
-      </div>
-      <div class="modal-footer">
-      	 <a href="https://github.com/basmaashouur/ComputationalGeometryLibrary" target="_blank" class="github-link">View on GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-<!-- project3 -->
-     	<!-- Button trigger modal -->
-       	<div class="col-md-4">
- <div class="card h-100 text-center">
-  <img class="project-img" src="img/cgl.jpg" alt="Movie Trailer">
-  <h3 class="project-name">Computational Geometry Library</h3>
-<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
-  Project details 
-
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Computational Geometry Library</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       A A Geometry Toolkit for Competitive Programming & a Library for solving most of the geometry algorithms,
-        made with C++ Object Orinted Structure.
-      </div>
-      <div class="modal-footer">
-      	 <a href="https://github.com/basmaashouur/ComputationalGeometryLibrary" target="_blank" class="github-link">View on GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-
-
-</div>
-    </section>
-
-<!--==========================================
-                   SKILLS
-===========================================-->
-    <section id="skills" class="container-fluid section1">
-
-        <div class="head wow animated fadeInDown">Skills  </div>
- <div class="row">
-
- 	<div class="col-md-2">
-	</div>
-        <div class="col-md-7">
-    <canvas id="polarChart" ></canvas>
-</div>
-<div class="col-md-2">
-	</div>
-</div>
-
+       	
     </section>
 <!--==========================================
                    EXPERIENCE
 ===========================================-->
-    <section id="experience" class="container-fluid section1">
+    <section id="experience" class="row top-buffer-out">
 
         <div class="head wow animated fadeInDown"> Experience.</div>
 
@@ -227,7 +89,7 @@
 <!--==========================================
                   AWARDS
 ===========================================-->
-    <section id="awards" class="container-fluid section1">
+    <section id="awards" class="row top-buffer-out">
 
         <div class="head wow animated fadeInDown"> Awards. </div>
 
@@ -235,37 +97,8 @@
 <!--==========================================
                   Footer
 ===========================================-->
-    <footer class="footer">
+ 
 
-        <a target="_blank" href="mailto:basmaashouur@gmail.com"><img class="contact-icon" src="img/social/mail.svg" title="basmaashouur@gmail.com"></a>
-        <a target="_blank" href="https://github.com/basmaashouur"><img class="contact-icon" src="img/social/github.svg" title="basmaashouur"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/basma-ashour-a26279116/"><img class="contact-icon" src="img/social/linkedin.svg" title="basma-ashour"></a>
-        <a target="_blank" href="https://www.facebook.com/BasmaAshouur"><img class="contact-icon" src="img/social/facebook.svg" title="BasmaAshouur"></a>
-        <a target="_blank" href="https://plus.google.com/u/0/111833383673116400186"><img class="contact-icon" src="img/social/google.svg" title="BasmaAshouur"></a>
-        <a target="_blank" href="https://www.instagram.com/basmaashouur/"><img class="contact-icon" src="img/social/instagram.svg" title="basmaashouur"></a>
-
-    </footer>
-<script>
-//polar
-var ctxPA = document.getElementById("polarChart").getContext('2d');
-var myPolarChart = new Chart(ctxPA, {
-    type: 'polarArea',
-    data: {
-        labels: ["C++", "Python", "HTML", "CSS", "JavaScript", "Flask",
-        "Nodejs", "Shell (Bash)", "Linux", "Git"],
-        datasets: [
-            {
-                data: [10,6,8,8,5,7,3,2, 4,9],
-                backgroundColor: [ "rgba(244, 222, 203, 1)","rgba(73, 39, 74, 1)", "rgba(11, 60, 93, 1)", "rgba(29, 39, 49, 1)", "rgba(1, 82, 73, 1)", "rgba(103, 86, 130, 1)","rgba(60, 60, 60, 1)","rgba(175, 71, 60, 1)","rgba(98, 110, 96, 1)","rgba(148, 93, 96, 1)"],
-                hoverBackgroundColor: ["rgba(219, 0, 0, 0.2)", "rgba(0, 165, 2, 0.2)", "rgba(255, 195, 15, 0.3)", "rgba(55, 59, 66, 0.1)", "rgba(0, 0, 0, 0.4)","rgba(219, 0, 0, 0.2)", "rgba(0, 165, 2, 0.2)", "rgba(255, 195, 15, 0.3)", "rgba(55, 59, 66, 0.1)", "rgba(0, 0, 0, 0.4)"]
-            }
-        ]
-    },
-    options: {
-        responsive: true
-    }
-});
-</script>
 </body>
 
 </html>
